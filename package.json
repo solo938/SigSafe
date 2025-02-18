@@ -1,1 +1,23 @@
+{
+  "name": "SigSafe",
+  "version": "1.0.0",
+  "description": "A simple multi-signature wallet contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "deploy": "truffle migrate"
+  },
+  "dependencies": {
+    "web3": "^1.6.1",
+    "openzeppelin-solidity": "^4.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.4.14",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
 
